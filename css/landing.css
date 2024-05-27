@@ -300,11 +300,16 @@
 }
 
 .dark-switch:hover {
-    transform: translateX(30px)
+    transform: translateX(30px);
+    transform: translateY(30px);
+}
+
+.dark2-switch:hover {
+    transform: translateY(30px) 
 }
 
 .light-switch:hover {
-    transform: translateX(-30px)
+    transform: translateX(-30px);
 }
 
 .ls-switcher span {

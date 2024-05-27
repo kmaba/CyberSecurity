@@ -1,17 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<!-- Mirrored from alioth-html.pethemes.com/light.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 26 May 2024 23:42:35 GMT -->
 <head>
 <meta charset="utf-8">
 
-<title>Alioth</title>
+<title>Man in the Middle Attacks</title>
 
 <meta name="author" content="Pe Themes">
-<meta name="description" content="Creative Portfolio & Agency Template">
-<meta name="keywords" content="portfolio, agency, personal, creative">
+<meta name="description" content="Learn about Man in the Middle Attacks and how to protect against them">
+<meta name="keywords" content="cybersecurity, MITM, man in the middle, attacks, protection">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link href="../fonts.googleapis.com/css2fb67.css?family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link href="css/plugins.css" rel="stylesheet">
 <link href="style.css" rel="stylesheet">
 <link href="css/landing.css" rel="stylesheet">
@@ -24,76 +23,58 @@
 
 <div style="display: none" data-duration="5" class="alioth-page-loader" data-layout="light">
 <span class="apl-background"></span>
-
 <div class="apl-count"></div>
-
 </div>
-
 
 <div data-dark-circle="rgba(25,27,29,.6)" data-dark-dot="#191b1d" data-light-circle="hsla(0,0%,100%,.2)" data-light-dot="#fff" id="mouseCursor">
 <div id="cursor"></div>
 <div id="dot"></div>
 </div>
 
-
 <div class="landing-header">
-
 <div class="landing-logo">
-<a href="index-2.html">
+<a href="index.html">
 <img alt="Site Logo" class="dark-logo" src="img/site-logo.png">
 <img alt="Site Logo" class="light-logo" src="img/site-logo-light.png">
 </a>
 </div>
 
-
 <div class="landing-nav">
 <div class="landing-nav-wrap">
 <ul class="landing-menu">
-<li><a target="_blank" href="docs/index.html">Documentation</a></li>
-<li><a href="cdn-cgi/l/email-protection.html#68000d04040728180d1c000d050d1b460b0705">Support</a></li>
+<li><a href="#support">Support</a></li>
 </ul>
 </div>
 </div>
 
-
 <div class="landing-header-right">
-
 <div class="header-cta-but">
-<a data-hover="Purchase for 35$" href="#.">
-Purchase for 17$
+<a data-hover="" href="#.">
+Purchase for $17
 </a>
 </div>
-
 </div>
-
 </div>
-
 
 <div id="page" data-barba="container" data-barba-namespace="demo-light" class="light-demo">
 
 <div class="landing-page-head">
-
 <span class="lph-overlay"></span>
-
 
 <div class="lph-headline">
 <div class="lph-headline-wrap">
-<h1 class="big-title">Unleash your<br>creativity with Alioth.</h1>
+<h1 class="big-title">Understanding Man-in-the-Middle Attacks</h1>
 </div>
 </div>
-
 
 <div class="lph-layout-switch">
-<a href="dark.html"><span>Switch Dark</span></a>
+<a href="index.html"><span>Back to Home</span></a>
 </div>
-
 
 <div class="lph-description">
-<h4 style="color: rgba(25,27,29,.6)">Welcome, and thank you for your interes in Alioth. Alioth is created for agencies and personal portfolios. The page transitions and scroll animations are the hearthbeat of the template and all the things in Alioth is very easy to create/customize. </h4>
+<h4 style="color: rgba(25,27,29,.6)">Learn how MITM attacks work and how to protect your online communications from these threats.</h4>
 </div>
-
 </div>
-
 
 <div id="lpContent" class="landing-page-content">
 
@@ -101,642 +82,126 @@ Purchase for 17$
 <span class="a-empty-space" style="height: 100px"></span>
 
 <div class="wrapper-small">
-
 <div class="c-col-12">
-
-<div data-parallax="true" data-image="false" data-background-text="Homepages" class="alioth-heading"></div>
-
+<div data-parallax="true" data-image="false" data-background-text="MITM Attacks" class="alioth-heading"></div>
 </div>
-
 </div>
-
 
 <div class="wrapper no-margin">
-
-<div class="c-col-6">
-
-<div class="landing-page-hold" data-delay="0">
-<a target="_blank" href="light/index.html">
-
-<div class="landing-page-image"><img alt="Landing Page Image" src="img/light_home_1.jpg"></div>
-
-
-<div class="landin-page-title">Agency</div>
-
-</a>
+<div class="c-col-12">
+<div class="text-wrapper">
+<h2>What is a Man-in-the-Middle Attack?</h2>
+<p>A Man-in-the-Middle (MITM) attack occurs when a malicious actor intercepts communication between two parties to steal or manipulate data. The attacker can eavesdrop on the conversation, capture sensitive information, or alter the communication to serve their purposes.</p>
 </div>
 
+<div class="text-wrapper">
+<h2>How Do MITM Attacks Work?</h2>
+<p>MITM attacks typically involve the attacker positioning themselves between the victim and the target server. They use various techniques, such as IP spoofing, DNS spoofing, or HTTPS spoofing, to intercept and potentially alter the data being transmitted.</p>
 </div>
 
-
-<div class="c-col-6">
-
-<div class="landing-page-hold" data-delay="0">
-<a target="_blank" href="light/home-personal.html">
-
-<div class="landing-page-image"><img alt="Landing Page Image" src="img/light_home_2.jpg"></div>
-
-
-<div class="landin-page-title">Personal</div>
-
-</a>
+<div class="text-wrapper">
+<h2>Common Types of MITM Attacks</h2>
+<ul>
+<li><strong>Wi-Fi Eavesdropping:</strong> Attackers set up fake Wi-Fi hotspots to intercept data from connected devices.</li>
+<li><strong>Email Hijacking:</strong> Hackers gain access to email accounts to monitor and alter communication.</li>
+<li><strong>Session Hijacking:</strong> Stealing session cookies to gain unauthorized access to online accounts.</li>
+</ul>
 </div>
 
+<div class="text-wrapper">
+<h2>How to Protect Against MITM Attacks</h2>
+<ul>
+<li><strong>Use Secure Connections:</strong> Ensure websites use HTTPS to encrypt data.</li>
+<li><strong>Avoid Public Wi-Fi:</strong> Be cautious when using public Wi-Fi networks. Use a VPN to encrypt your connection.</li>
+<li><strong>Keep Software Updated:</strong> Regularly update your software to protect against known vulnerabilities.</li>
+<li><strong>Enable Two-Factor Authentication:</strong> Use two-factor authentication for an extra layer of security.</li>
+</ul>
 </div>
-
-
-<div class="c-col-6">
-
-<div class="landing-page-hold" data-delay="0">
-<a target="_blank" href="light/home-showcase-carousel.html">
-
-<div class="landing-page-image"><img alt="Landing Page Image" src="img/light_home_3.jpg"></div>
-
-
-<div class="landin-page-title">Showcase Carousel</div>
-
-</a>
 </div>
-
 </div>
-
-
-<div class="c-col-6">
-
-<div class="landing-page-hold" data-delay="0">
-<a target="_blank" href="light/home-showcase-list.html">
-
-<div class="landing-page-image"><img alt="Landing Page Image" src="img/light_home_5.jpg"></div>
-
-
-<div class="landin-page-title">Showcase List</div>
-
-</a>
 </div>
-
-</div>
-
-
-<div class="c-col-6">
-
-<div class="landing-page-hold" data-delay="0">
-<a target="_blank" href="light/home-showcase-wall.html">
-
-<div class="landing-page-image"><img alt="Landing Page Image" src="img/light_home_7.jpg"></div>
-
-
-<div class="landin-page-title">Showcase Wall</div>
-
-</a>
-</div>
-
-</div>
-
-
-<div class="c-col-6">
-
-<div class="landing-page-hold" data-delay="0">
-<a target="_blank" href="light/home-fullscreen-slider.html">
-
-<div class="landing-page-image"><img alt="Landing Page Image" src="img/light_home_4.jpg"></div>
-
-
-<div class="landin-page-title">Fullscreen Slider</div>
-
-</a>
-</div>
-
-</div>
-
-
-<div class="c-col-6">
-
-<div class="landing-page-hold" data-delay="0">
-<a target="_blank" href="light/home-fullscreen-slideshow.html">
-
-<div class="landing-page-image"><img alt="Landing Page Image" src="img/light_home_8.jpg"></div>
-
-
-<div class="landin-page-title">Fullscreen Slideshow</div>
-
-</a>
-</div>
-
-</div>
-
-
-<div class="c-col-6">
-
-<div class="landing-page-hold" data-delay="0">
-<a target="_blank" href="light/home-fullscreen-wall.html">
-
-<div class="landing-page-image"><img alt="Landing Page Image" src="img/light_home_9.jpg"></div>
-
-
-<div class="landin-page-title">Fullscreen Wall</div>
-
-</a>
-</div>
-
-</div>
-
-
-<div class="c-col-6">
-
-<div class="landing-page-hold" data-delay="0">
-<a target="_blank" href="light/home-showcase-slideshow.html">
-
-<div class="landing-page-image"><img alt="Landing Page Image" src="img/light_home_6.jpg"></div>
-
-
-<div class="landin-page-title">Showcase Slideshow</div>
-
-</a>
-</div>
-
-</div>
-
-
-<div class="c-col-6">
-
-<div class="landing-page-hold" data-delay="0">
-<a target="_blank" href="light/home-shop.html">
-
-<div class="landing-page-image"><img alt="Landing Page Image" src="img/light_home_10.jpg"></div>
-
-
-<div class="landin-page-title">Shop</div>
-
-</a>
-</div>
-
-</div>
-
-</div>
-
-</div>
-
 
 <div class="section no-margin" style="background: #ebebeb">
 <span class="a-empty-space" style="height: 100px"></span>
 
 <div class="wrapper">
-
 <div class="c-col-12">
-
 <div class="text-wrapper">
-<h1 class="has-anim no-margin" data-stagger="0.02" data-duration="1.5" data-delay="0" data-animation="charsUp">Main Features</h1>
+<h2>Main Features of Secure Communication</h2>
 </div>
-
 </div>
-
 
 <div class="c-col-8">
 <span class="a-empty-space" style="height: 15px"></span>
 
 <div class="text-wrapper">
-<h4 style="color: rgba(25,27,29,.6)" class="has-anim" data-stagger="0.1" data-duration="1.5" data-delay=".1" data-animation="linesUp">
-Alioth offers a lots of features for animations, page building, interactions etc. With this features you can create unique pages, projects and whatever you want.
+<h4 style="color: rgba(25,27,29,.6)">
+Ensuring secure communication involves several features including encryption, secure protocols, and user authentication mechanisms.
 </h4>
 </div>
-
 </div>
-
 </div>
-
-<div class="wrapper no-margin">
-
-<div class="c-col-12">
-
-<div class="feature-icons">
-
-<div class="feature">
-
-<div class="f-icon">
-<img alt="Featue Icon" src="img/light_icon_1.png">
 </div>
-
-
-<div class="f-text">
-AJAX Page Transitions
-</div>
-
-</div>
-
-
-<div class="feature">
-
-<div class="f-icon">
-<img alt="Featue Icon" src="img/light_icon_2.png">
-</div>
-
-
-<div class="f-text">
-Interactive Mouse Cursor
-</div>
-
-</div>
-
-
-<div class="feature">
-
-<div class="f-icon">
-<img alt="Featue Icon" src="img/light_icon_3.png">
-</div>
-
-
-<div class="f-text">
-Smooth Scrolling (Coming Soon)
-</div>
-
-</div>
-
-
-<div class="feature">
-
-<div class="f-icon">
-<img alt="Featue Icon" src="img/light_icon_4.png">
-</div>
-
-
-<div class="f-text">
-Custom Scroll Animations
-</div>
-
-</div>
-
-
-<div class="feature">
-
-<div class="f-icon">
-<img alt="Featue Icon" src="img/light_icon_5.png">
-</div>
-
-
-<div class="f-text">
-Dark & Light Modes
-</div>
-
-</div>
-
-
-<div class="feature">
-
-<div class="f-icon">
-<img alt="Featue Icon" src="img/light_icon_6.png">
-</div>
-
-
-<div class="f-text">
-Classic & Fullscreen Menu
-</div>
-
-</div>
-
-
-<div class="feature">
-
-<div class="f-icon">
-<img alt="Featue Icon" src="img/light_icon_7.png">
-</div>
-
-
-<div class="f-text">
-Parallax Animations
-</div>
-
-</div>
-
-
-<div class="feature">
-
-<div class="f-icon">
-<img alt="Featue Icon" src="img/light_icon_8.png">
-</div>
-
-
-<div class="f-text">
-Page Loading Animation
-</div>
-
-</div>
-
-
-<div class="feature">
-
-<div class="f-icon">
-<img alt="Featue Icon" src="img/light_icon_9.png">
-</div>
-
-
-<div class="f-text">
-W3C Validated Code
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-
 
 <div class="section no-margin" style="background: #f1f1f1">
 <span class="a-empty-space" style="height: 100px"></span>
 
 <div class="wrapper-small no-margin">
-
 <div class="c-col-12">
-
-<div data-parallax="true" data-image="false" data-background-text="Inner Pages" class="alioth-heading" style="margin-bottom: 75px">
+<div data-parallax="true" data-image="false" data-background-text="Stay Secure" class="alioth-heading" style="margin-bottom: 75px"></div>
 </div>
-
 </div>
-
-</div>
-
 
 <div class="wrapper-full no-gap no-margin">
-
-<div class="c-col-12 no-gap">
-
-<div data-navigate="scroll" class="alioth-image-carousel">
-
-<div class="ai-wrapper">
-
-<div class="ai-image">
-<a target="_blank" href="light/about.html">
-<img alt="Carousel Image" src="img/light_inner_1.jpg">
-</a>
-<div class="ai-text">About</div>
-</div>
-
-
-<div class="ai-image">
-<a target="_blank" href="light/about-me.html">
-<img alt="Carousel Image" src="img/light_inner_2.jpg">
-</a>
-<div class="ai-text">About Me</div>
-</div>
-
-
-<div class="ai-image">
-<a target="_blank" href="light/contact.html">
-<img alt="Carousel Image" src="img/light_inner_3.jpg">
-</a>
-<div class="ai-text">Contact</div>
-</div>
-
-
-<div class="ai-image">
-<a target="_blank" href="light/works.html">
-<img alt="Carousel Image" src="img/light_inner_4.jpg">
-</a>
-<div class="ai-text">Works</div>
-</div>
-
-
-<div class="ai-image">
-<a target="_blank" href="light/our-team.html">
-<img alt="Carousel Image" src="img/light_inner_5.jpg">
-</a>
-<div class="ai-text">Our Team</div>
-</div>
-
-
-<div class="ai-image">
-<a target="_blank" href="light/our-services.html">
-<img alt="Carousel Image" src="img/light_inner_6.jpg">
-</a>
-<div class="ai-text">Our Services</div>
-</div>
-
-
-<div class="ai-image">
-<a target="_blank" href="light/clients.html">
-<img alt="Carousel Image" src="img/light_inner_7.jpg">
-</a>
-<div class="ai-text">Clients</div>
-</div>
-
-
-<div class="ai-image">
-<a target="_blank" href="light/blog-list.html">
-<img alt="Carousel Image" src="img/light_inner_8.jpg">
-</a>
-<div class="ai-text">Blog</div>
-</div>
-
-
-<div class="ai-image">
-<a target="_blank" href="light/products.html">
-<img alt="Carousel Image" src="img/light_inner_9.jpg">
-</a>
-<div class="ai-text">Shop</div>
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-<div class="section" style="background: #f1f1f1">
-<span class="a-empty-space" style="height: 75px"></span>
-
-<div class="wrapper-small no-margin">
-
-<div class="c-col-6">
-
-<div class="text-wrapper">
-<h1 class=" big-title has-anim" data-stagger="0.02" data-duration="1.5" data-delay="0" data-animation="charsUp">Project Pages</h1>
-</div>
-
-</div>
-
-
-<div class="c-col-6">
-<span class="a-empty-space" style="height: 50px"></span>
-
-<div class="text-wrapper">
-<h5 style="color: rgba(25,27,29,.6)" class="has-anim" data-stagger="0.1" data-duration="1.5" data-delay=".1" data-animation="linesUp">
-Alioth offers three type of project page templates, when you creating a project page you just need to select your page template and let the magic happen!
-</h5>
-</div>
-
-</div>
-
-</div>
-
-
-<div class="wrapper">
-
-<div class="c-col-12">
-
-<div class="single-image">
-<img alt="Single Image" src="img/light_projects_rew.png">
-</div>
-
-</div>
-
-</div>
-
-
-<div class="wrapper-small no-margin">
-
-<div class="c-col-6">
-
-<div class="text-wrapper">
-<h1 class=" big-title has-anim" data-stagger="0.02" data-duration="1.5" data-delay="0" data-animation="charsUp">Shop Pages</h1>
-</div>
-
-</div>
-
-
-<div class="c-col-6">
-<span class="a-empty-space" style="height: 50px"></span>
-
-<div class="text-wrapper">
-<h5 style="color: rgba(25,27,29,.6)" class="has-anim" data-stagger="0.1" data-duration="1.5" data-delay=".1" data-animation="linesUp">
-The template also includes shop page deigns for e-commerce actions. Even there's also a shop home page design included in Alioth.
-</h5>
-</div>
-
-</div>
-
-</div>
-
-
-<div class="wrapper">
-
-<div class="c-col-12">
-
-<div class="single-image">
-<img alt="Single Image" src="img/light_shop_rew.png">
-</div>
-
-</div>
-
-</div>
-
-<span class="a-empty-space" style="height: 75px"></span>
-</div>
-
-
-<div class="section no-gap no-margin">
-
-<div class="wrapper-small no-margin">
-
-<div class="c-col-12">
-
-<div data-parallax="true" data-image="false" data-background-text="Fully Responsive" class="alioth-heading" style="margin-bottom: 75px">
-</div>
-
-</div>
-
-</div>
-
-
-<div class="wrapper-full no-gap no-margin">
-
 <div class="c-col-12 no-gap no-margin">
-
 <div class="single-image">
-<img alt="Single Image" style="display: block" src="img/light_responsive.png">
+<img alt="Secure Communication" style="display: block" src="img/secure_communication.png">
 </div>
-
 </div>
-
 </div>
-
 </div>
-
 
 <div class="section no-margin" style="background: #fff">
-
 <div class="wrapper no-margin">
-
 <div class="c-col-12">
-
 <div class="text-wrapper">
-<h1 class="has-anim" data-stagger="0.02" data-duration="1.5" data-delay="0" data-animation="charsUp">Template Features</h1>
-</div>
-
-</div>
-
-
-<div class="c-col-12">
-
-<div class="ft-list">
+<h2>Additional Resources</h2>
 <ul>
-<li>10+ Portfolio showcase layouts.</li>
-<li>Landing page included.</li>
-<li>AJAX page transitions.</li>
-<li>GSAP included.</li>
-<li>Smooth scroll plugin. (Coming soon)</li>
-<li>Interactive mouse cursor.</li>
-<li>Parallax scroll effects.</li>
-<li>Easy page settings.</li>
-<li>Swiper Slider use.</li>
-<li>Fully responsive</li>
-<li>Fully customizable</li>
-<li>Custom page loader</li>
-<li>Page scroll effects</li>
-<li>Simple and convenient</li>
-<li>Documentation included</li>
-<li>Browser compatibility</li>
-<li>Clean & modern design</li>
-<li>Well commented HTML elements</li>
-<li>Custom grid layout.</li>
-<li>Google fonts</li>
-<li>Icofonts.</li>
-<li>W3C validated code.</li>
-<li>Classic and fullscreen menu styles.</li>
-<li>And more!</li>
+<li><a href="https://www.cisa.gov/">CISA - Cybersecurity and Infrastructure Security Agency</a></li>
+<li><a href="https://www.us-cert.gov/">US-CERT - United States Computer Emergency Readiness Team</a></li>
+<li><a href="https://www.cybersecurity.gov/">Cybersecurity.gov - Official government website</a></li>
 </ul>
 </div>
-
+</div>
 </div>
 
+<div class="section no-margin" style="background: #191b1d">
+    <span class="a-empty-space" style="height: 100px"></span>
+    
+    <div class="section no-margin">
+    
+        <div class="wrapper-full no-margin">
+        
+        <div class="c-col-12 no-gap no-margin">
+        
+        <div class="alioth-page-nav" style="background-color: #ffff">
+        
+        <a href="index.html">
+        
+        <div style="color: #191b1d" class="page-title">.link/c -</div>
+        
+        </a>
+        </div>
+        
+        </div>
+        
+        </div>
+        
+        </div>
+</div>
 </div>
 
-<span class="a-empty-space" style="height: 75px"></span>
-</div>
-
-
-<div class="section no-margin">
-
-<div class="wrapper-full no-margin">
-
-<div class="c-col-12 no-gap no-margin">
-
-<div class="alioth-page-nav" style="background-color: #191b1d">
-
-<a href="dark.html">
-
-<div style="color: #fff" class="page-title">Dark Demo -</div>
-
-</a>
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-<script data-cfasync="false" src="cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="js/jquery.min.js"></script>
+<script src="js/jquery.min.js"></script>
 <script src="js/plugins.js"></script>
 <script src="js/barba.js"></script>
 <script src="js/gsap.js"></script>
@@ -744,5 +209,4 @@ The template also includes shop page deigns for e-commerce actions. Even there's
 
 </body>
 
-<!-- Mirrored from alioth-html.pethemes.com/light.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 26 May 2024 23:42:58 GMT -->
 </html>
