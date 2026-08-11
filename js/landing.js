@@ -380,7 +380,7 @@ barba.init({debug:true,transitions:[
   },
 ]});
 
-barba.hooks.after((data)=>{aliothScrollAnimations();ScrollTrigger.refresh();ScrollTrigger.update();initLocomotiveScroll();initForms();scrollToHash();cursorHovers();});
+barba.hooks.after((data)=>{aliothScrollAnimations();ScrollTrigger.refresh();ScrollTrigger.update();initLocomotiveScroll();initForms();scrollToHash();cursorHovers();playGalleryVideos();});
 
 
 /* ===== Hero CTA Dropdown ===== */
@@ -416,6 +416,16 @@ $(document).on('click','a[href^="#"]',function(e){
     else{ $('html,body').animate({scrollTop:$(hash).offset().top},800); }
   }
 });
+/* ===== Gallery video autoplay ===== */
+function playGalleryVideos(){
+  $('.gallery-videos video').each(function(){
+    var v=this;
+    v.muted=true;
+    var p=v.play();
+    if(p && p.catch){ p.catch(function(){}); }
+  });
+}
+
 /* ===== First page load ===== */
 $(window).on('load',function(){
   lphImages();
@@ -429,6 +439,7 @@ $(window).on('load',function(){
   setInitialStates();
   initCursor();
   cursorHovers();
+  playGalleryVideos();
   var loader=$('.alioth-page-loader');
   if(loader.length && loader.is(':visible')){
     initSplash(loader);
