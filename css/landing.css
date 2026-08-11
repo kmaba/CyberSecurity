@@ -143,6 +143,26 @@
     background: rgba(25, 27, 29, 0.6);
 }
 
+.landing-header.logo-only {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to bottom, rgba(25, 27, 29, 0.7), rgba(25, 27, 29, 0));
+    -webkit-backdrop-filter: none;
+    backdrop-filter: none;
+}
+
+.landing-header.logo-only .landing-logo {
+    position: static;
+    transform: none;
+}
+
+.landing-header.logo-only .logo-text {
+    font-size: 54px;
+    letter-spacing: 0.04em;
+    padding: 0;
+}
+
 .landing-nav {
     position: absolute;
     left: 50%;
